@@ -107,7 +107,7 @@ VITE_API_BASE_URL=http://localhost:8000
 ### 2. Запустить backend
 
 ```bash
-cd E:\market-dashboard\backend
+cd ?:\market-dashboard\backend
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
@@ -122,7 +122,7 @@ http://localhost:8000
 Во втором терминале:
 
 ```bash
-cd E:\market-dashboard\frontend
+cd ?:\market-dashboard\frontend
 npm install
 npm run dev -- --host 0.0.0.0 --port 3000
 ```
